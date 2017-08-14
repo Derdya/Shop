@@ -1,0 +1,163 @@
+body {
+  font: 10pt Arial, Helvetica, sans-serif; /* Шрифт на веб-странице */
+  widht: 100%;
+  text-shadow: 0px 0px 2px black, 0 0 1em green;   /* /* Цвет фона */
+  background-color: #aaaaaa;
+  }
+h2 
+{
+  font-size: 1.1em; /* Размер шрифта */
+  color: #800040; /* Цвет текста */
+  margin-top: 0; /* Отступ сверху */
+}
+   #container {
+    width: 1280px; /* Ширина слоя */
+    margin: 0 auto; /* Выравнивание по центру */
+   /*background: #f0f0f0;*/
+  /* opacity: 0.3;/* Цвет фона левой колонки */
+   }
+   header {
+      font-family: "Сomic Sans MS", Cursive, sans-serif;
+      height:28px;
+      font-size: 100%; /* Размер текста */
+      text-align: center; /* Выравнивание по центру */
+   /* padding: 5px; /* Отступы вокруг текста */
+    background: #777777; /* Цвет фона шапки */
+    color: #000; /* Цвет текста */
+   }
+   .logo {
+         border-top: 2px solid #000;
+         border-bottom: 2px solid #000;
+	 height: 25px;
+	// margin-top: 15px;
+         background: #ffffff;
+         padding: 15px;
+   }
+    nav {
+	  text-align: center;
+    margin-top: 10px; 
+	height: 50px;
+   /* width: 110px; /* Ширина слоя */
+    padding: 0 10px; /* Отступы вокруг текста */
+    float: top; /* Обтекание по правому краю */
+   }
+   #article{
+  /*  margin-left: 130px; /* Отступ слева */
+    overflow: scroll;
+    padding: 15px; /* Поля вокруг текста */
+    background: rgba(255,255,255,0.7); 
+	min-height: 500px;
+	max-height: 100%;
+	overflow: auto;
+    /*opacity: 0.7;  
+	
+	/* Цвет фона правой колонки */
+   }
+   
+   table.product td {
+	 padding: 50px;
+	border: 2px solid #000;
+	 
+   }
+   
+
+   
+   footer {
+    background: #889966; /* Цвет фона подвала */
+    color: #fff; /* Цвет текста */
+    padding: 5px; /* Отступы вокруг текста */
+    clear: left;/* Отменяем действие float */
+   }
+    ul.hr {
+    
+    margin: 0; /* Обнуляем значение отступов */
+    padding: 5px; 
+	/* Значение полей */
+   }
+   ul.hr li {
+    display: inline; /* Отображать как строчный элемент */
+    /* Отступ слева */
+    
+    border-right: 2px solid #fff;/* Рамка вокруг текста */
+    padding: 5px; 
+    padding-right: 30px;
+	padding-left: 30px;
+	border-radius: 15px;
+	/* Поля вокруг текста */
+   }
+   ul.hm {
+    
+    margin: 0; /* Обнуляем значение отступов */
+    padding: 5px; 
+	/* Значение полей */
+   }
+   ul.hm li {
+    display: inline; /* Отображать как строчный элемент */
+    /* Отступ слева */
+    font-size: 200%;
+	font-weight: 600;
+    border: 5px solid #fff;/* Рамка вокруг текста */
+    padding: 10px; 
+    padding-right: 30px;
+	padding-left: 30px;
+	border-radius: 15px;
+	
+	/* Поля вокруг текста */
+   }
+   
+   a {
+	 text-decoration: none;
+	 color: #000;
+   }
+   a:hover {
+	 color: #000;
+	 
+   }
+   #mycart{
+	 background: #0c0;
+   }
+   #mycart td, th{
+	  
+	 padding-right: 30px;
+	padding-left: 30px;
+   }
+   
+   
+   .product-price{
+	  color: red;
+   }
+   
+   
+   table.regtab{
+	 font-size: 120%;
+	 border-spacing: 15px 0px;
+	 
+   }
+   
+   table.regtab td{
+	 background: #f0f0f0;
+	 padding: 15px;
+	 border: 2px solid grey;
+   }
+   
+   .mregister{
+	 background: #f0f0f0;
+	 border: 2px solid green;
+	 width: 500px;
+	 margin: 0 auto;
+   }
+   
+     h2.lab {
+     /* Размер шрифта */
+    border-bottom: 2px solid #555; /* Параметры линии под текстом */
+    font-weight: normal; /* Убираем жирное начертание */
+    padding-bottom: 5px;
+	padding-left: 10px;/* Расстояние от текста до линии */
+     color: grey;
+	}
+	
+	.img {
+	width: 200px;
+	height: 200px;
+   
+  }
